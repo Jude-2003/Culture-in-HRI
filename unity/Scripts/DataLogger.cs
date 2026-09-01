@@ -26,8 +26,8 @@ public class DataLogger : MonoBehaviour
     public static DataLogger Instance { get; private set; }
 
     [Header("Session Info")]
-    public string participantID = "P001";
-    public string condition = "PDI_A_Directive"; // set before session starts
+    public string participantID = "";
+    public string condition = ""; 
 
     private List<PlacementRecord> records = new List<PlacementRecord>();
     private float selectionStartTime;

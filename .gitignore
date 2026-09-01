@@ -1,0 +1,92 @@
+# ── Unity ─────────────────────────────────────────────────────────────────────
+ 
+# Auto-generated Unity folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]em[Pp]rofiler/
+ 
+# Unity meta files (only ignore if not tracking assets)
+# *.meta
+ 
+# Unity crash reports
+sysinfo.txt
+crashlytics-build.properties
+ 
+# Asset store packages
+*.unitypackage
+ 
+# ── Python ────────────────────────────────────────────────────────────────────
+ 
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+ 
+# Virtual environments
+venv/
+env/
+.venv/
+hri_env/
+ 
+# ── Session data ──────────────────────────────────────────────────────────────
+ 
+# CSV data files
+*.csv
+ 
+# Audio files
+*.mp3
+*.wav
+*.aiff
+ 
+# Transcripts and session folders
+HRI_Study_Data/
+SessionData/
+ 
+# ── macOS ─────────────────────────────────────────────────────────────────────
+ 
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ 
+# ── Editors ───────────────────────────────────────────────────────────────────
+ 
+# VS Code
+.vscode/
+*.code-workspace
+ 
+# JetBrains / Rider
+.idea/
+*.sln
+*.csproj
+ 
+# Visual Studio
+.vs/
+ 
+# ── Qualtrics ─────────────────────────────────────────────────────────────────
+ 
+# Exported response data — never commit participant data
+*_responses.csv
+*_responses.xlsx
+ 
+# ── Misc ──────────────────────────────────────────────────────────────────────
+ 
+*.log
+*.tmp
+*.bak
+.env
+ 

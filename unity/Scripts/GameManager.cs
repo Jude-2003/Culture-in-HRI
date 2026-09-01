@@ -47,7 +47,10 @@ public class GameManager : MonoBehaviour
  
         if (DataLogger.Instance != null)
             DataLogger.Instance.condition = condition.ToString();
- 
+            
+       if (RobotController.Instance != null)
+              RobotController.Instance.condition = condition.ToString();
+      
         UIManager.Instance?.SetInstruction(
             condition == GameCondition.PDI_A_Directive
                 ? "Follow the robot's instructions to build your town."

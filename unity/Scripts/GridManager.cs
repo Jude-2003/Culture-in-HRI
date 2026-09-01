@@ -19,9 +19,9 @@ public class GridManager : MonoBehaviour
     public Transform gridParent;
 
     [Header("House Settings")]
-    public Sprite houseSprite;          // assign your house sprite in Inspector
+    public Sprite houseSprite;          // assign house sprite in Inspector
 
-    // Pre-placed house positions (row, col) — 0-indexed
+    // Pre-placed house positions (row, col) - 0-indexed
     private readonly Vector2Int[] housePositions = new Vector2Int[]
     {
         new Vector2Int(0, 2),
